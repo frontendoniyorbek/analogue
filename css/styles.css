@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+*::selection {
+	background-color: #e8a410;
+	color: #fff;
+}
+
 ol,
 ul {
 	list-style: none;
@@ -86,3 +91,43 @@ font-family: "Libre Baskerville", serif;
 .site-header__link:active {
 	opacity: 0.6;
 }
+
+/* HERO START*/
+.hero {
+	padding-top: 100px;
+	padding-bottom: 124px;
+}
+
+.hero__title {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	color: #1f1f1f;
+	max-width: 935px;
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+.hero__info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero__circle {
+	width: 32px;
+	height: 32px;
+	background-color: #c4c4c4;
+	border-radius: 50%;
+}
+
+.hero__text-wrapper {
+	max-width: 736px;
+	width: 100%;
+	display: flex;
+}
+
+.hero__text:not(:last-child) {
+	margin-right: 41px;
+}
+/* HERO END*/
