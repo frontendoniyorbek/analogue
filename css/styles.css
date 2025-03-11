@@ -223,6 +223,13 @@ font-family: "Libre Baskerville", serif;
 }
 
 .some__title {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 49.4px;
+	letter-spacing: 0.2px;
+	text-align: center;
+
 	font-weight: 400;
 	font-size: 38px;
 	line-height: 1.2;
@@ -244,8 +251,31 @@ font-family: "Libre Baskerville", serif;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 63px;
 }
-.some__item {
-}
-.some__img {
-}
 /* SOME END */
+
+/* READY START */
+.ready {
+	padding-top: 48px;
+	padding-bottom: 40px;
+	background-color: #e0f391;
+}
+
+.line {
+}
+.ready__inner {
+	margin-top: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ready__title {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1.5;
+	letter-spacing: 0.2px;
+}
+.btn {
+}
+/* READY END */
